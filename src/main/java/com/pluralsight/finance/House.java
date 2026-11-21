@@ -5,7 +5,7 @@ public class House extends FixedAsset {
     private int squareFeet;
     private int bedrooms;
 
-    /*
+
     public House(int year, int squareFeet, int bedrooms) {
         super("House", 0.0);
         this.yearBuilt = year;
@@ -18,5 +18,5 @@ public class House extends FixedAsset {
         // Example valuation logic based on square footage and bedrooms
         return (squareFeet * 150.0) + (bedrooms * 10000.0);
     }
-     */
+
 }
