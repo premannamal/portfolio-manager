@@ -20,7 +20,7 @@ public class FinanceApplication {
 
 Did the deposit work for both accounts? Why or why not?
 
-Th Deposit worked for account1. It did not work for account2.
+The Deposit worked for account1. It did not work for account2.
 
 What methods are available for account1?
 
