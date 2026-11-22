@@ -10,7 +10,6 @@ public class CreditCard implements Valuable {
         this.accountNumber = accountNumber;
         this.balance = balance;
     }
-    /*
 
     public void charge(double amount) {
         if (amount > 0) {
@@ -29,5 +28,4 @@ public class CreditCard implements Valuable {
         return -balance;
     }
 
-     */
 }
