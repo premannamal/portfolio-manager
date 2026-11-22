@@ -15,4 +15,16 @@ public class Portfolio {
         this.assets = new ArrayList<>();
     }
 
+    public void add(Valuable asset) {
+        assets.add(asset);
+    }
+
+    public double getValue() {
+        double totalValue = 0;
+        for (Valuable asset : assets) {
+            totalValue += asset.getValue();
+        }
+        return totalValue;
+    }
+
 }
